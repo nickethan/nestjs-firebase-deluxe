@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "plugins": [
+      { "transform": "ts-transformer-keys/transformer" }
+    ]
+  },
+  "include": [
+    "src",
+    "credentials"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
